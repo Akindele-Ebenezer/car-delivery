@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input,
+textarea {
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.car-brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.car-brands img {
+    margin: 2rem;
+    width: 33rem;
+}
+
+.checklist-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.checklist-wrapper div {
+    width: 23rem;
+}
+
+.details,
+ .details-3, 
+ .details-4, 
+ .details-5, 
+ .form,
+ .form > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.details div {
+    flex-basis: 20rem;
+    padding: 1rem;
+}
+ 
+.details-2 p { 
+    text-align: center;
+}
+
+.details-3 div div:not(.details-3 div:first-child),
+.details-3, 
+.details-4, 
+.details-5, 
+.form,
+h1,
+h2 { 
+    padding: 2rem;
+}
+ 
+.details-4 div, .details-5 div, form {
+    margin-inline: 1rem; 
+}
+ 
+input, 
+textarea {
+    width: 30rem;
+}
+
+.form > div div {
+    flex-basis: 13rem;
+    padding: 1rem;
+}
+ 
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+ 
+.intro > div {
+    margin-inline: 3.5rem;
+    width: 22rem;
+}
+
+.nav {
+    margin: 2rem 3rem;
+}
+
+.nav div {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea { 
+    height: 10rem;
+    resize: none;
+}
