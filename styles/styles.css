@@ -50,7 +50,9 @@ textarea {
     width: 20rem;
 }
 
-.car-brands div p {
+.car-brands div p,
+details-5 div div h1,
+details-5 div div p {
     text-align: center;
 }
 
