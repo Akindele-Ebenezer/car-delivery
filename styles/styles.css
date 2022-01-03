@@ -60,8 +60,7 @@ textarea {
     justify-content: center;
 }
  
-.checklist-wrapper div {
-    margin: 2rem;
+.checklist-wrapper div { 
     width: 23rem;
 }
 
@@ -76,6 +75,10 @@ textarea {
     justify-content: center;
 }
  
+.details-3 div div h1 {
+    text-align: center;   
+}
+
 .details div {
     background-color: var(--white-three);
     border-radius: .5rem;
