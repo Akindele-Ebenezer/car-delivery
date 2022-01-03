@@ -57,11 +57,11 @@ textarea {
 .checklist-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
  
 .checklist-wrapper div { 
-    width: 23rem;
+    width:15rem;
 }
 
 .details,
