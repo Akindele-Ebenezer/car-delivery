@@ -46,7 +46,8 @@ textarea {
 
 .car-brands div img {
     border-radius: .5rem;
-    margin: .5rem;
+    height: 13rem;
+    margin: 1.5rem;
     width: 20rem;
 }
 
