@@ -67,6 +67,11 @@ textarea {
 }
 
 .details,
+.form {
+    background: #333;   
+}
+
+.details,
  .details-3, 
  .details-4, 
  .details-5, 
