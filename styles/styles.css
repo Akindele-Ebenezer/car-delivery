@@ -130,6 +130,9 @@ textarea {
 .details-4 button {
     background-color: var(--black);
     border: 1px solid var(--black);
+}
+
+.details-4 button a { 
     color: var(--white); 
 }
 
