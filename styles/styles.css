@@ -163,9 +163,13 @@ textarea {
     align-self: center;
 }
 
-.form > div div {
-    flex-basis: 13rem;
+.form > div div { 
     padding: 1rem;
+}
+ 
+
+.form > div div div { 
+    display: flex;
 }
  
 footer {
