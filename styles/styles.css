@@ -168,7 +168,7 @@ textarea {
 }
  
 
-.form > div div div { 
+.form > div > div > div { 
     display: flex;
 }
  
