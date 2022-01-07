@@ -134,6 +134,7 @@ textarea {
 
 .details-4 button a { 
     color: var(--white); 
+    text-decoration: none;
 }
 
 .details-4 div:last-child {
