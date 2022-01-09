@@ -257,9 +257,9 @@ nav {
 .nav {
     background-color: var(--white);
     position: fixed;
-    margin: 2rem 3rem;
+    padding: 2rem 3rem;
     top: -2rem; 
-    width: -moz-available;
+    width: 100vw;
 }
 
 .nav div {
