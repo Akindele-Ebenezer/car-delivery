@@ -259,7 +259,7 @@ nav {
     position: fixed;
     padding: 2rem 3rem;
     top: -2rem; 
-    width: 100vw;
+    width: 100%;
 }
 
 .nav div {
