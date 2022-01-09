@@ -212,7 +212,7 @@ h1:not(footer h1),
 
 input, 
 textarea {
-    width: 30rem;
+    width: calc(60vw - 1rem);
 }
 
 input[placeholder],
@@ -284,8 +284,4 @@ ul {
     list-style: none;
 }
 
-@media(max-width: 508px) {
-    input[placeholder], .form textarea {
-        width: calc(100vw - 1.5rem);   
-    }
-}
+ 
