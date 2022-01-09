@@ -283,3 +283,9 @@ textarea {
 ul {
     list-style: none;
 }
+
+@media(max-width: 508px) {
+    input[placeholder], .form textarea {
+        width: calc(100vw - 1.5rem);   
+    }
+}
