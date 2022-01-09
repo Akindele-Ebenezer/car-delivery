@@ -257,7 +257,7 @@ nav {
 .nav {
     background-color: var(--white);
     position: fixed;
-    padding: 2rem 3rem;
+    padding: 1.5rem;
     top: -2rem; 
     width: 100%;
 }
