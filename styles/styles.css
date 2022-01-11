@@ -204,6 +204,10 @@ footer + p {
     text-align: center;
 }
 
+.form form input {
+    width: 30rem !important;   
+}
+
 h1:not(footer h1),
  .checklist-wrapper div h2, 
  .details div p,
@@ -302,3 +306,8 @@ ul {
     }
 }
  
+@media(max-width: 498px) {
+       .form form input {
+            width: calc(95vw - 1rem);
+        }
+}
