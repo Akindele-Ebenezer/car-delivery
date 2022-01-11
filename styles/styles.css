@@ -290,6 +290,12 @@ ul {
 }
 
 
+@media(max-width: 406px) {
+    nav {
+        width: 14rem;   
+    }
+}
+
 @media(max-width: 458px) {
     footer > div div:first-child {
         width: 15rem;   
