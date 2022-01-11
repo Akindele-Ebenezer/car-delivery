@@ -170,6 +170,7 @@ textarea {
 
 .form > div > div > div { 
     display: flex;
+    flex-wrap: wrap;
 }
  
 footer {
