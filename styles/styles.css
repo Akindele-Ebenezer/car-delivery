@@ -14,10 +14,6 @@
     --yellow: #face4b;
 }
 
-body {
-    overflow: hidden;   
-}
-
 button {
     border: 1px solid var(--yellow);
     border-radius: .4rem;
@@ -278,6 +274,10 @@ nav {
 
 p {
     line-height: 2rem;
+}
+
+section.main {
+    overflow: hidden;   
 }
 
 textarea { 
