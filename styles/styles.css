@@ -284,4 +284,10 @@ ul {
     list-style: none;
 }
 
+
+@media(max-width: 458px) {
+    footer > div div:first-child {
+        width: 15rem;   
+    }
+}
  
