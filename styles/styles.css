@@ -315,7 +315,7 @@ ul {
 }
 
 @media(max-width: 342px) { 
-    .details-5 div div {
+    .details-5 div > div {
         padding-inline: 4rem;  
     }   
 }
