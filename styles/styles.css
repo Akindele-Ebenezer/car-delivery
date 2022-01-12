@@ -144,7 +144,7 @@ textarea {
 .details-4 div, .details-5 div, form {
     margin-inline: 1rem; 
 }
- 
+
 .details div a {
     border-bottom: 4px solid var(--yellow);
     text-decoration: none;
@@ -312,4 +312,10 @@ ul {
        .form form textarea {
             width: calc(95vw - 1rem) !important;
         }
+}
+
+@media(max-width: 342px) { 
+    .details-5 div div {
+        padding-inline: 4rem;  
+    }   
 }
