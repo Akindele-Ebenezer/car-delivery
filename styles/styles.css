@@ -208,6 +208,10 @@ footer + p {
     text-align: center;
 }
 
+.form {
+     padding-block: 6rem;   
+}
+
 .form form input,
 .form form textarea {
     width: 30rem !important;   
