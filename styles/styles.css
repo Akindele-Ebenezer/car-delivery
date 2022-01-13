@@ -241,6 +241,7 @@ input[placeholder],
     background-color: var(--white-two);
     display: flex;
     flex-wrap: wrap;
+    font-size: larger;
     height: 100vh;
     justify-content: center;
     margin-bottom: 2rem;
