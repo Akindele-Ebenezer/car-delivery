@@ -220,6 +220,10 @@ h1:not(footer h1),
     margin: 1rem 1rem 1rem 0;
 }
 
+html {
+    scroll-behavior: smooth;   
+}
+
 input, 
 textarea {
     width: calc(60vw - 1rem);
