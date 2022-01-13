@@ -293,6 +293,10 @@ nav {
     left: 0;
 }
 
+.nav-toggle ul li a {
+    color: #fff;   
+}
+
 p {
     line-height: 2rem;
 }
