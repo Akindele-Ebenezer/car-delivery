@@ -72,6 +72,10 @@ textarea {
     width:15rem;
 }
 
+#details {
+    padding-block: 6rem;   
+}
+
 .details,
 .form {
     background: #eee;   
@@ -243,6 +247,11 @@ input[placeholder],
     margin-inline: 3.5rem;
     width: 22rem;
 } 
+
+.intro div button a {
+    color: var(--blue);
+    text-decoration: none;
+}
 
 nav {
     background-color: var(--black);
