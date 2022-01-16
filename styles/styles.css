@@ -217,6 +217,11 @@ footer + p {
     width: 30rem !important;   
 }
 
+.form h1,
+.intro h1 {
+    border-bottom: solid red;   
+}
+
 h1:not(footer h1),
  .checklist-wrapper div h2, 
  .details div p,
