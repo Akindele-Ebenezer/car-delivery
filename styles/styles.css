@@ -357,6 +357,18 @@ section.main {
     padding: 3rem;   
 }
 
+.social-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20rem; 
+}
+
+.social-links img {
+    margin: .5rem;
+    width: 3rem;
+}
+
 textarea { 
     height: 10rem;
     resize: none;
