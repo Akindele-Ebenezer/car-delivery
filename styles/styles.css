@@ -83,6 +83,10 @@ textarea {
     margin-bottom: 1rem;
 }
 
+#contact.form div div div div img {
+    width: 4rem;
+}
+
 #details {
     padding-block: 6rem;   
 }
