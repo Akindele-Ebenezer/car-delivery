@@ -69,6 +69,10 @@ textarea {
     justify-content: space-around;
 }
  
+.checklist-wrapper div div a {
+    color: var(--blue);   
+}
+
 .checklist-wrapper div { 
     width:15rem;
 }
