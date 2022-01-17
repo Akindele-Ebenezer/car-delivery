@@ -6,7 +6,6 @@ navIcon.addEventListener("click", () => {
     navBar.classList.toggle("nav-toggle"); 
 });
 
-
 main.addEventListener("click", () => {
     navBar.classList.remove("nav-toggle");
 });
@@ -18,4 +17,9 @@ for(let n = 0; n < navLinks.length; n++) {
         navBar.classList.remove("nav-toggle"); 
     });
 } 
+
+window.onscroll = () => {
+    navBar.classList.remove("nav-toggle");
+}
+
 // console.log(navLinks);
