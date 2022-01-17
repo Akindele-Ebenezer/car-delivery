@@ -11,5 +11,11 @@ main.addEventListener("click", () => {
     navBar.classList.remove("nav-toggle");
 });
  
-
-//console.log(main);
+const navLinks = document.getElementsByTagName("li");
+ 
+for(let n = 0; n < navLinks.length; n++) {
+    navLinks[n].addEventListener("click", () => {
+        navBar.classList.remove("nav-toggle"); 
+    });
+} 
+// console.log(navLinks);
