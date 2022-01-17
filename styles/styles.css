@@ -278,6 +278,15 @@ input[placeholder],
     text-decoration: none;
 }
 
+.message-success {
+    display: flex;
+    justify-content: center;
+}
+
+.message-success div {
+    width: 35rem;   
+}
+
 nav {
     background-color: var(--black);
     color: var(--white);
