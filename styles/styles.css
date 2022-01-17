@@ -377,7 +377,12 @@ textarea {
 ul {
     list-style: none;
 }
-
+ 
+@media(max-width: 1264px) {
+    .social-links {
+        display: none;
+    }
+}
 
 @media(max-width: 1118px) {
        main {
