@@ -183,6 +183,11 @@ textarea {
     flex-wrap: wrap;
 }
  
+.form form input {
+    border: 1px solid #ddd;
+    border-radius: .5rem;   
+}
+
 footer {
     background-color: var(--blue);
     display: flex;
