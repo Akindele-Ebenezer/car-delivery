@@ -14,7 +14,8 @@
     --yellow: #face4b;
 }
 
-button {
+button,
+.checklist-wrapper div div a {
     border: 1px solid var(--yellow);
     border-radius: .4rem;
     background-color: var(--yellow);
