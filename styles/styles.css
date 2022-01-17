@@ -299,6 +299,11 @@ input[placeholder],
     color: #61d961;   
 }
 
+.message-success div p a {
+    color: var(--black);
+    text-decoration: none;   
+}
+
 nav {
     background-color: var(--black);
     color: var(--white);
