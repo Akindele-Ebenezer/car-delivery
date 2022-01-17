@@ -281,10 +281,15 @@ input[placeholder],
 .message-success {
     display: flex;
     justify-content: center;
+    padding: 3rem;
 }
 
 .message-success div {
     width: 35rem;   
+}
+
+.message-success div h1 {
+    color: #61d961;   
 }
 
 nav {
