@@ -349,6 +349,10 @@ section.main {
     overflow: hidden;   
 }
 
+#services {
+    padding: 3rem;   
+}
+
 textarea { 
     height: 10rem;
     resize: none;
