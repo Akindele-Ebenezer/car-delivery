@@ -69,13 +69,18 @@ textarea {
     flex-wrap: wrap;
     justify-content: space-around;
 }
- 
-.checklist-wrapper div div a {
-    color: var(--blue);   
-}
 
 .checklist-wrapper div { 
     width:15rem;
+}
+ 
+.checklist-wrapper div div a {
+    color: var(--blue);
+    text-decoration: none;
+}
+ 
+.checklist-wrapper div div p {
+    margin-bottom: 1rem;
 }
 
 #details {
@@ -183,7 +188,8 @@ textarea {
     flex-wrap: wrap;
 }
  
-.form form input {
+.form form input,
+textarea {
     border: 1px solid #ddd;
     border-radius: .5rem;   
 }
